@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
+
+aside{
+    font-size: 3em;
+    width: 100%;
+    font-family: "Lobster",cursive;
+    font-weight: 100;
+    text-align: center;
+}
+
+
+
+figure img{
+    display: none;
+}
+[alt="Aretha Franklin"]{
+    background-image: url("../img/aretha.jpg");
+    display: block;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 150px;
+    height: 20%;
+    margin-left: 500px;
+    top:30px;
+    position: absolute;
+
+}
+[alt="Diana Ross"]{
+    background-image: url("../img/diana.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    width: 150px;
+    height: 20%;
+    margin-left: 500px;
+    top: 30px;
+    position: absolute;
+}
+[alt="Dionne Warwick"]{
+    background-image: url("../img/dionne.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    top: 30px;
+    position: absolute;
+}
+[alt="Etta James"]{
+    background-image: url("../img/dionne.jpg");
+    background-repeat: no-repeat;
+    display: block;
+    background-size: cover;
+    width: 150px;
+    height: 150px;
+    margin-left: 500px;
+    top: 30px;
+    position: absolute;
+}
+main::first-letter{
+    font-size: 8em;
+    font-family: "Lobster",cursive;
+
+}
+header,main{
+
+    margin: auto;
+    width: 750px;
+    font-size: 1.2em;
+}
+
+#menu p{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+#menu:hover p{
+   color: black;
+
+}
+
+strong{
+    color: black;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+em{
+    color: #507297;
+    font-family: "Lobster", cursive;
+}
+#menu{
+    background-color: gray;
+    margin-top: 40px;
+    color: white;
+
+}
+body{
+    background-color: #f7f7f7;
+}
+
+h1,h2{
+    text-align: center;
+    font-family: "Lobster", cursive;
+    margin: 0;
+}
+h1{
+    font-size: 2em;
+
+}
+h2{
+    font-size: 1em;
+    font-weight: 400;
+}
+.titulos{
+    background-color: #c9c9c9;
+    margin: 0;
+    padding-bottom: 150px;
+}
+

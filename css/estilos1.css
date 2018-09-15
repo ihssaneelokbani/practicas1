@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster|Open+Sans');
+
+body{
+    margin: 0;
+    font-family: "Lobster", cursive;
+}
+section{
+    display: inline-block;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    top: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+section:hover{
+    background-size: auto 150%;
+}
+
+#aretha{
+    left: 0;
+    background-image: url("../img/aretha.jpg");
+
+}
+
+#aretha1{
+    left: 0;
+    background-color: rgba(255, 0, 255, 0.31);
+
+}
+#diana1{
+    left: 25%;
+    background-color: rgba(0, 0, 255, 0.31);
+
+}
+#dionne1{
+    left: 50%;
+    background-color: rgba(255, 0, 153, 0.31);
+
+}
+
+#etta1{
+    left: 75%;
+    background-color: rgba(0, 153, 255, 0.31);
+
+}
+#diana{
+    left: 25%;
+    background-image: url("../img/diana.jpg");
+
+}
+#dionne{
+    left: 50%;
+    background-image: url("../img/dionne.jpg");
+}
+
+#etta{
+    left: 75%;
+    background-image: url("../img/etta.jpg");
+}
+section div {
+    display: inline-block;
+    position: fixed;
+    width: 25%;
+    height: 100%;
+    top: 0;
+
+ }
+
+header{
+    position: fixed;
+    z-index: 300;
+    text-align: center;
+    left: 500px;
+
+}
+header h1{
+    font-family: "Lobster",cursive;
+    font-weight: 400;
+    color: white;
+    font-size: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
